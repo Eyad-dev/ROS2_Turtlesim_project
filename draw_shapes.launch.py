@@ -14,5 +14,11 @@ def generate_launch_description():
             executable="turtle_commander",
             name="turtle_commander",
             output="screen"
+        ),
+        Node(
+            package="turtlesim",
+            executable="turtlesim_node",
+            name="turtlesim_node",
+            output="screen"
         )
     ])
